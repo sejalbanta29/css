@@ -1,0 +1,86 @@
+p.a{
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+p.b{
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+
+}
+p.c{
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-size: 10px;
+}
+p.d{
+    font-style: initial;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 50px;
+}
+#background{
+   background-image: url(clouds.jpeg);
+            color: white;
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding: 20px;
+            height: 200px;
+            width: 700px;
+
+}
+li.one::before{
+    content : "Hello-";
+    background-color: yellow;
+    color:red;
+    font-weight: bold;
+}
+li.two::after{
+    content: "To the new-";
+    background-color: violet;
+    color: greenyellow;
+    font-weight:bold ;
+
+}
+li:last-child
+{
+    background: hotpink;
+}
+li.three:last-child{
+    background: firebrick;
+}
+.comb > p
+        {
+            background-color: yellow;
+            width: 300px;
+            font-weight: bold;
+        }
+
+        .comb2 + p {
+  background-color: sienna;
+  font-weight: bold;
+  width: 300px;
+}
+input[type=text] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: rgb(45, 204, 255);
+  }
+  ::placeholder
+  {
+      color: black;
+      font-weight: bolder;
+  }
+  
+  input[type=number] {
+      margin: 0;
+      background-color: coral;
+      height: 40px;
+  }
+  
